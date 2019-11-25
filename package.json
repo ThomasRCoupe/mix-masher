@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rsync -avr ./src/ ./out --exclude *.ts; tsc",
     "test": "mocha -r ts-node/register ./test/**/*.ts",
-    "start": "node ./out/server.js"
+    "clean": "rm -rf ./out/*",
+    "demo": "node ./out/authorization_code/app.js"
   },
   "keywords": [],
   "author": "",
