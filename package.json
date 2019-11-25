@@ -1,0 +1,17 @@
+{
+  "name": "mix-masher",
+  "version": "1.0.0",
+  "description": "This project is a tool for generating spotify playlists based on various parameters.",
+  "main": "out/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register ./test/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.12",
+    "typescript": "^3.7.2"
+  }
+}
